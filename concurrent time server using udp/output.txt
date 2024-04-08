@@ -1,0 +1,10 @@
+client.c
+Hello TIME  sent to the Server.
+Server TIME : Mon Mar  4 09:53:35 2024
+
+
+
+server.c
+Client TIME : Mon Mar  4 09:54:02 2024
+
+Hello TIME  sent to the Client 
