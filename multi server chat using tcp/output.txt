@@ -1,0 +1,35 @@
+
+OUTPUT
+Server Socket: 3
+TCP Server running on port 4950. 
+Waiting clients to join::
+Client 1 (port 48976) connected.
+Client 2 (port 48976) connected.
+Client 3 (port 48976) connected.
+
+Client 1
+
+Connected to server.
+
+Client 2: hey
+hello
+
+Client 3: maaro maaro
+
+Client 2: Client 3: maaro maaro
+
+Client 2
+Connected to server.
+hey
+
+Client 1: hello
+
+Client 3: maaro maaro
+
+
+Client 3
+
+Connected to server.
+maaro maaro
+
+
