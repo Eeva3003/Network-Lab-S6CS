@@ -1,0 +1,23 @@
+server terminal - 
+[+]Server socket created..
+[+]Server listening..
+
+[+]Connection accepted from 127.0.0.1:42840
+[+]Client(s) connected: 1
+[+]Requested file found..
+[+]Requested file sent to client successfully..
+
+client terminal - 
+[+]Client socket created..
+[+]Connected to server..
+
+Input the name of the file you want to request to server:-
+file_to_send.txt
+
+name-eeva eldhose
+class-s6cs
+hello world!
+
+Server Process ID: 12446
+
+FILE TRANSFER COMPLETE!
