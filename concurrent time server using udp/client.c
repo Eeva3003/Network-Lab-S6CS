@@ -29,8 +29,7 @@ memset(&servaddr, 0, sizeof(servaddr));
 // Filling server information 
 servaddr.sin_family = AF_INET; 
 servaddr.sin_port = htons(PORT); 
-servaddr.sin_addr.s_addr = 
-INADDR_ANY;
+servaddr.sin_addr.s_addr = INADDR_ANY;
 int n, len;
 sendto(sockfd, (const char *)hello, strlen(hello), MSG_CONFIRM, (const struct sockaddr *) &servaddr,sizeof(servaddr)); 
 printf("Hello TIME  sent to the Server.\n");
